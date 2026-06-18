@@ -1,0 +1,10 @@
+x64/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.ilk
+*.log
+*.tlog
+*.suo
+*.user
