@@ -1,7 +1,6 @@
 <<<<<<< HEAD
 x64/
 *.exe
-*.dll
 *.pdb
 *.obj
 *.ilk
@@ -32,7 +31,6 @@ x64/
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 *.so.*
 
 

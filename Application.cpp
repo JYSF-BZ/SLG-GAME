@@ -2035,12 +2035,12 @@ void Application::HelpPd2(const sf::Event::MouseButtonPressed& mouse) {
 					pd1 = 2;
 					pd2 = i;
 					TarID = 1000000 + pd2 * 10000;
-					InitButton(CountyButtonGroup_, CountyButtonGroup_sprite_);
 					if (TarID != 1020000) {
 						pd = 2;
 						pd1 = 1;
 					}
 					else {
+						InitButton(CountyButtonGroup_, CountyButtonGroup_sprite_);
 						std::shared_ptr<Province> temprovince = GainProvince(TarID);
 						for (auto& it : temprovince->GetChunkID()) {
 							ChunkGroup_[it].SetDirty();
