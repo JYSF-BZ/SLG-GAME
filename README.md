@@ -4,6 +4,12 @@
 
 
 
+\## 演示视频
+
+https://github.com/JYSF-BZ/SLG-GAME/releases/tag/v0.1.0
+
+
+
 \## 技术栈
 
 C++17
