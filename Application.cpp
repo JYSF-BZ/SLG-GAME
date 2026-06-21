@@ -155,7 +155,7 @@ bool Application::IsPressButton(const sf::Sprite& tarsprite, const sf::Event::Mo
 }
 
 Application::Application() :
-	window_(sf::VideoMode({ sf::VideoMode::getDesktopMode().size.x,sf::VideoMode::getDesktopMode().size.y }), L"静言思飞的练手项目3", sf::Style::Default),
+	window_(sf::VideoMode({ sf::VideoMode::getDesktopMode().size.x,sf::VideoMode::getDesktopMode().size.y }), L"静言思飞的练手项目3", sf::Style::None),
 	DataBase_(DataWarehouse::getInstance()),
 	WareHouse_(WareHouse::getInstance()),
 	Map_(WareHouse_.GetMap()),
